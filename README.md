@@ -125,7 +125,7 @@ This project is a Flask-based API for managing and interacting with "shorts". It
         "downvote": 2
       }
     }
-  ] ```
+  ]json```
   ### Filter Shorts
 
 - **Endpoint:** `/api/shorts/filter`
