@@ -80,7 +80,8 @@ This project is a Flask-based API for managing and interacting with "shorts". It
   {
     "username": "your_username",
     "password": "your_password"
-  } ```
+  }
+  
   ### Create Shorts
 
 - **Endpoint:** `/api/shorts/create`
@@ -101,7 +102,8 @@ This project is a Flask-based API for managing and interacting with "shorts". It
       "upvote": 0,
       "downvote": 0
     }
-  } ```
+  }
+  
   ### View Feed
 
 - **Endpoint:** `/api/shorts/feed`
@@ -125,7 +127,8 @@ This project is a Flask-based API for managing and interacting with "shorts". It
         "downvote": 2
       }
     }
-  ]json```
+  ]
+  
   ### Filter Shorts
 
 - **Endpoint:** `/api/shorts/filter`
@@ -145,4 +148,4 @@ This project is a Flask-based API for managing and interacting with "shorts". It
       "keyword": "def",
       "author": "Pranav"
     }
-  } ```
+  } 
