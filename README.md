@@ -68,8 +68,9 @@ This project is a Flask-based API for managing and interacting with "shorts". It
     "username": "your_username",
     "password": "your_password",
     "email": "your_email@example.com"
-  } ```
-  ### User Login
+  }
+  
+### User Login
 
 - **Endpoint:** `/api/login`
 - **Method:** `POST`
@@ -82,7 +83,7 @@ This project is a Flask-based API for managing and interacting with "shorts". It
     "password": "your_password"
   }
   
-  ### Create Shorts
+### Create Shorts
 
 - **Endpoint:** `/api/shorts/create`
 - **Method:** `POST`
@@ -104,7 +105,7 @@ This project is a Flask-based API for managing and interacting with "shorts". It
     }
   }
   
-  ### View Feed
+### View Feed
 
 - **Endpoint:** `/api/shorts/feed`
 - **Method:** `GET`
@@ -129,7 +130,7 @@ This project is a Flask-based API for managing and interacting with "shorts". It
     }
   ]
   
-  ### Filter Shorts
+### Filter Shorts
 
 - **Endpoint:** `/api/shorts/filter`
 - **Method:** `GET`
